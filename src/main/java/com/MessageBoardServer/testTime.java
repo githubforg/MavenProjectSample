@@ -28,14 +28,17 @@ public class testTime {
         try {
             Statement stmt=connection.createStatement();
             int i=0;
-            String insert="insert into cities values"+"('Sichuan',"+"'(100.,21"+i+")');";
-            System.out.println(insert);
+
+
             long startMili=System.currentTimeMillis();
             for(i=0;i<10000;i++){
+                String insert="insert into cities values"+"('Sichuan',"+"'(100.,21"+i+")');";
+//                System.out.println(insert);
             stmt.executeUpdate(insert);
+//                System.out.println(i);
             }
             long endMili= System.currentTimeMillis();
-            System.out.println((endMili-startMili)/1000+"秒");
+            System.out.println("用时"+(endMili-startMili)/1000+"秒");
 
         } catch (SQLException e) {
             e.printStackTrace();

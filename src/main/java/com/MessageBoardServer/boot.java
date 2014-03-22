@@ -25,7 +25,7 @@ public class boot {
         samplerRecord.setId(1);
         samplerRecord.setName("Zhang");
         samplerRecord.setBirthDay(19900101);
-        samplerRecord.setFrom("SiChuan");
+        samplerRecord.setLocation("SiChuan");
 
         List list=new ArrayList();
         String a=JSONObject.toJSONString(samplerRecord);
@@ -41,7 +41,7 @@ public class boot {
     }
 
         public static String outPut(SamplerRecord samplerRecord){
-            String temp=("["+"{"+"\"Name\""+":"+"\""+samplerRecord.getName()+"\""+","+"\"ID\""+":"+"\""+samplerRecord.getId()+"\""+","+"\"BrithDay\""+":"+"\""+samplerRecord.getBirthDay()+"\""+","+"\"From\""+":"+"\""+samplerRecord.getFrom()+"\""+"}"+"]");
+            String temp=("["+"{"+"\"Name\""+":"+"\""+samplerRecord.getName()+"\""+","+"\"ID\""+":"+"\""+samplerRecord.getId()+"\""+","+"\"BrithDay\""+":"+"\""+samplerRecord.getBirthDay()+"\""+","+"\"From\""+":"+"\""+samplerRecord.getLocation()+"\""+"}"+"]");
             return temp;
         }
 
@@ -53,7 +53,7 @@ public class boot {
             temp.append("\"Name\""+"\":"+samplerRecord.getName()+"\",");
             temp.append("\"ID\""+"\":"+samplerRecord.getId()+"\",");
             temp.append("\"BirthDay\":"+"\""+samplerRecord.getBirthDay()+"\",");
-            temp.append("\"From\""+"\":"+samplerRecord.getFrom()+"\"");
+            temp.append("\"From\""+"\":"+samplerRecord.getLocation()+"\"");
             temp.append("}");
             temp.append("]");
             return temp;

@@ -7,7 +7,7 @@ public class SamplerRecord {
     private int id =0;
     private String name;
     private int birthDay=0;//19900101
-    private String From;
+    private String location;
 
     public int getId() {
         return id;
@@ -33,12 +33,12 @@ public class SamplerRecord {
         this.birthDay = birthDay;
     }
 
-    public String getFrom() {
-        return From;
+    public String getLocation() {
+        return location;
     }
 
-    public void setFrom(String from) {
-        From = from;
+    public void setLocation(String from) {
+        location = from;
     }
 
 
@@ -48,7 +48,7 @@ public class SamplerRecord {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", birthDay=" + birthDay +
-                ", From='" + From + '\'' +
+                ", location='" + location + '\'' +
                 '}';
     }
 }
