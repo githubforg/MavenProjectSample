@@ -34,7 +34,7 @@ public class testTime {
             for(i=0;i<10000;i++){
                 String insert="insert into cities values"+"('Sichuan',"+"'(100.,21"+i+")');";
 //                System.out.println(insert);
-            stmt.executeUpdate(insert);
+//            stmt.executeUpdate(insert);
 //                System.out.println(i);
             }
             long endMili= System.currentTimeMillis();

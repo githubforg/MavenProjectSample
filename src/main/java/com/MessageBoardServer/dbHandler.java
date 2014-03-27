@@ -12,10 +12,15 @@ import java.util.Objects;
  */
 public class dbHandler {
 //TODO
+    private dbHandler(){
 
-    Connection connection = null;
+    }
 
-    public void inti(){
+    private static dbHandler instance=new dbHandler();
+
+    private Connection connection = null;
+
+    public void inti(String URL,String Name,String PassWord){
         System.out.println("-------- PostgreSQL "
                 + "JDBC Connection Testing ------------");
 
@@ -36,10 +41,11 @@ public class dbHandler {
 
 
         try {
+            connection=DriverManager.getConnection(URL,Name,PassWord);
 
-            connection = DriverManager.getConnection(
-                    "jdbc:postgresql://127.0.0.1:5432/mydb", "DELL",
-                    "123123");
+//            connection = DriverManager.getConnection(
+//                    "jdbc:postgresql://127.0.0.1:5432/mydb", "DELL",
+//                    "123123");
 
         } catch (SQLException e) {
 
@@ -105,14 +111,33 @@ public class dbHandler {
             ResultSetMetaData rsm=rs.getMetaData();
             int count = rsm.getColumnCount();
 
-            while (rs.next()){
+            if(!rs.next()){
+                System.out.println("No data in the form");
+            }else{
                 for(int i=0;i<count;i++){
                     String ColumnName=rsm.getColumnName(i+1);
                     Object sqlView=rs.getString(ColumnName);
-                    list.add(ColumnName);
-                    list.add(sqlView.toString());
+                    System.out.print(ColumnName+":"+sqlView.toString()+" ");
                 }
+                System.out.println();
+
+
+                    while (rs.next()){
+                        for(int i=0;i<count;i++){
+                            String ColumnName=rsm.getColumnName(i+1);
+                            Object sqlView=rs.getString(ColumnName);
+                            System.out.print(ColumnName+":"+sqlView.toString()+" ");
+
+                        }
+                        System.out.println();
+
+                    }
+
+
             }
+
+
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -122,7 +147,7 @@ public class dbHandler {
     }
 
 
-    public void des(){
+    public void clear(){
         try {
             Statement stmt=connection.createStatement();
             stmt.executeUpdate("delete from student");
@@ -133,7 +158,30 @@ public class dbHandler {
 
         }
 
+    }
 
+    public void des(){
+        try {
+
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private ArrayList list=new ArrayList();
+    public ArrayList testAdd(String a){
+        System.out.println(Thread.currentThread().getName()+"1------->");
+        list.add(a);
+        System.out.println(Thread.currentThread().getName() + "2-------->");
+        return list;
+    }
+    public ArrayList getList(){
+        return list;
+    }
+
+    public static dbHandler getInstance(){
+        return instance;
     }
 
 }

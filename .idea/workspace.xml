@@ -72,7 +72,7 @@
       <file leaf-file-name="test_db.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/test_db.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="13" selection-start="2713" selection-end="2713" vertical-scroll-proportion="0.0" vertical-offset="1149" max-vertical-offset="2413">
+            <state line="87" column="55" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.0" vertical-offset="1653" max-vertical-offset="2413">
               <folding>
                 <marker date="1395161382733" expanded="true" signature="1413:1433" placeholder="select * fro..cities..." />
               </folding>
@@ -80,30 +80,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/test.java">
+      <file leaf-file-name="ArrayList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="628" selection-end="628" vertical-scroll-proportion="0.9179487" vertical-offset="41" max-vertical-offset="893">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryExecutorImpl.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/postgresql-9.3-1101.jdbc41.jar!/org/postgresql/core/v3/QueryExecutorImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="0" selection-start="9365" selection-end="9365" vertical-scroll-proportion="-9.52" vertical-offset="2498" max-vertical-offset="2850">
+            <state line="413" column="5" selection-start="15057" selection-end="15057" vertical-scroll-proportion="0.0" vertical-offset="7324" max-vertical-offset="21185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractJdbc2Statement.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/postgresql-9.3-1101.jdbc41.jar!/org/postgresql/jdbc2/AbstractJdbc2Statement.class">
+      <file leaf-file-name="AbstractCollection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/AbstractCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="330" column="0" selection-start="17612" selection-end="17612" vertical-scroll-proportion="-4.68" vertical-offset="6134" max-vertical-offset="7239">
+            <state line="448" column="0" selection-start="15240" selection-end="15240" vertical-scroll-proportion="0.0" vertical-offset="7951" max-vertical-offset="8360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testRunable.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testRunable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="69" selection-start="670" selection-end="670" vertical-scroll-proportion="0.16919191" vertical-offset="427" max-vertical-offset="1045">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testThread.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="39" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="773" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1102">
               <folding />
             </state>
           </provider>
@@ -112,13 +128,15 @@
       <file leaf-file-name="dbHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/dbHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="30" selection-start="3576" selection-end="3576" vertical-scroll-proportion="-10.16" vertical-offset="2178" max-vertical-offset="2793">
+            <state line="180" column="5" selection-start="4979" selection-end="4979" vertical-scroll-proportion="0.0" vertical-offset="1966" max-vertical-offset="2489">
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1395486075388" expanded="true" signature="1626:1706" placeholder="create table..student..." />
-                <marker date="1395486075388" expanded="true" signature="2314:2343" placeholder="INSERT INTO ..." />
-                <marker date="1395486075388" expanded="true" signature="2314:2388" placeholder="INSERT INTO ..." />
-                <marker date="1395486075388" expanded="true" signature="3523:3542" placeholder="delete from ..." />
+                <element signature="method#inti#0;class#dbHandler#0" expanded="false" />
+                <element signature="e#4951#4952#0" expanded="true" />
+                <element signature="e#4978#4979#0" expanded="true" />
+                <marker date="1395933388063" expanded="true" signature="1837:1917" placeholder="create table..student..." />
+                <marker date="1395933388063" expanded="true" signature="2525:2554" placeholder="INSERT INTO ..." />
+                <marker date="1395933388063" expanded="true" signature="2525:2599" placeholder="INSERT INTO ..." />
+                <marker date="1395933388063" expanded="true" signature="4250:4269" placeholder="delete from ..." />
               </folding>
             </state>
           </provider>
@@ -127,25 +145,7 @@
       <file leaf-file-name="boot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/boot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="3" selection-start="466" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1349">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/Statement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="22" selection-start="3744" selection-end="3753" vertical-scroll-proportion="0.0" vertical-offset="2302" max-vertical-offset="19874">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseMetaData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/DatabaseMetaData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1530" column="49" selection-start="60831" selection-end="60831" vertical-scroll-proportion="0.0" vertical-offset="28432" max-vertical-offset="69122">
+            <state line="23" column="3" selection-start="466" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1482">
               <folding />
             </state>
           </provider>
@@ -154,9 +154,9 @@
       <file leaf-file-name="testTime.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="48" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="451" max-vertical-offset="1064">
+            <state line="23" column="23" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1064">
               <folding>
-                <marker date="1395238242932" expanded="true" signature="857:916" placeholder="insert into ..." />
+                <marker date="1395753246761" expanded="true" signature="857:916" placeholder="insert into ..." />
               </folding>
             </state>
           </provider>
@@ -175,12 +175,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/test_db.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testRunable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/Sample/SamplerRecord.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/boot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/dbHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testTime.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/dbHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testRunable.java" />
       </list>
     </option>
   </component>
@@ -195,10 +195,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1376" />
-    <option name="height" value="754" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1358" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -228,8 +228,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -374,6 +372,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,7 +393,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/postgresql-9.3-1101.jdbc41.jar!/" />
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.testRunable">
     <configuration default="false" name="testRunable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -412,7 +412,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="MavenProjectSample" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -776,10 +782,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.boot" />
-        <item index="2" class="java.lang.String" itemvalue="Application.test_db" />
-        <item index="3" class="java.lang.String" itemvalue="Application.testRunable" />
+        <item index="0" class="java.lang.String" itemvalue="Application.testRunable" />
+        <item index="1" class="java.lang.String" itemvalue="Application.test_db" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.boot" />
         <item index="4" class="java.lang.String" itemvalue="Application.dbHandler" />
       </list>
     </recent_temporary>
@@ -805,57 +811,62 @@
       <workItem from="1395237573274" duration="4958000" />
       <workItem from="1395413726958" duration="1585000" />
       <workItem from="1395417686797" duration="15205000" />
+      <workItem from="1395486364952" duration="908000" />
+      <workItem from="1395555426976" duration="6574000" />
+      <workItem from="1395752454279" duration="5109000" />
+      <workItem from="1395841345673" duration="1709000" />
+      <workItem from="1395924799788" duration="10852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91941000" />
+    <option name="totallyTimeSpent" value="117093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
+    <frame x="1" y="1" width="1358" height="736" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35602954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39800996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252818" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32504147" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33383915" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33307692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26403642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29307568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26615384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29850745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35602954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26858878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26331812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29307568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -892,16 +903,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.15/fastjson-1.1.15.jar!/com/alibaba/fastjson/annotation/JSONType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="388" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="342" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.15/fastjson-1.1.15.jar!/com/alibaba/fastjson/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="2261" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.15/fastjson-1.1.15.jar!/com/alibaba/fastjson/util/ASMClassLoader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="418" />
@@ -1017,9 +1018,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="27" selection-start="6213" selection-end="6213" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="59413">
-          <folding />
-        </state>
+        <state line="187" column="27" selection-start="6213" selection-end="6213" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="59413" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/Types.java">
@@ -1044,14 +1043,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="17" selection-start="2997" selection-end="2997" vertical-scroll-proportion="0.0" vertical-offset="1143" max-vertical-offset="6992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="6" selection-start="4496" selection-end="4496" vertical-scroll-proportion="-1.274359" vertical-offset="2454" max-vertical-offset="37886" />
+        <state line="84" column="17" selection-start="2997" selection-end="2997" vertical-scroll-proportion="0.0" vertical-offset="1143" max-vertical-offset="6992" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Runnable.java">
@@ -1059,44 +1051,14 @@
         <state line="56" column="7" selection-start="1581" selection-end="1584" vertical-scroll-proportion="0.08974359" vertical-offset="592" max-vertical-offset="988" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testRunable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="0" selection-start="7466" selection-end="7466" vertical-scroll-proportion="0.5786802" vertical-offset="2641" max-vertical-offset="78261" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/UnsupportedOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="812" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="1463">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="510" column="34" selection-start="18421" selection-end="18421" vertical-scroll-proportion="0.0" vertical-offset="8322" max-vertical-offset="21185">
-          <folding />
-        </state>
+        <state line="47" column="6" selection-start="812" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="1463" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="468" column="24" selection-start="17270" selection-end="17270" vertical-scroll-proportion="0.0" vertical-offset="8426" max-vertical-offset="21698">
-          <folding />
-        </state>
+        <state line="468" column="24" selection-start="17270" selection-end="17270" vertical-scroll-proportion="0.0" vertical-offset="8426" max-vertical-offset="21698" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/beans/Statement.java">
@@ -1106,38 +1068,17 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="29" selection-start="9280" selection-end="9280" vertical-scroll-proportion="0.0" vertical-offset="3857" max-vertical-offset="11229">
-          <folding>
-            <element signature="e#0#22585#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2907#2919#0" expanded="false" />
-            <element signature="e#4256#4257#0" expanded="false" />
-            <element signature="e#4292#4293#0" expanded="false" />
-            <element signature="e#12852#12860#0" expanded="false" />
-            <element signature="e#13715#13716#0" expanded="false" />
-            <element signature="e#13753#13754#0" expanded="false" />
-            <element signature="e#15620#15621#0" expanded="false" />
-            <element signature="e#15652#15653#0" expanded="false" />
-            <element signature="e#17129#17294#0" expanded="false" />
-            <element signature="e#17279#17280#0" expanded="false" />
-            <element signature="e#17652#18920#0" expanded="false" />
-            <element signature="e#18909#18910#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="248" column="29" selection-start="9280" selection-end="9280" vertical-scroll-proportion="0.0" vertical-offset="3857" max-vertical-offset="11229" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/DatabaseMetaData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1530" column="49" selection-start="60831" selection-end="60831" vertical-scroll-proportion="0.0" vertical-offset="28432" max-vertical-offset="69122">
-          <folding />
-        </state>
+        <state line="1530" column="49" selection-start="60831" selection-end="60831" vertical-scroll-proportion="0.0" vertical-offset="28432" max-vertical-offset="69122" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="7" selection-start="4008" selection-end="4008" vertical-scroll-proportion="0.43236074" vertical-offset="1376" max-vertical-offset="27892">
-          <folding />
-        </state>
+        <state line="105" column="7" selection-start="4008" selection-end="4008" vertical-scroll-proportion="0.43236074" vertical-offset="1376" max-vertical-offset="27892" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/Statement.java">
@@ -1149,40 +1090,36 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/postgresql-9.3-1101.jdbc41.jar!/org/postgresql/core/v3/QueryExecutorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="0" selection-start="9365" selection-end="9365" vertical-scroll-proportion="-9.52" vertical-offset="2498" max-vertical-offset="2850">
-          <folding />
-        </state>
+        <state line="145" column="0" selection-start="9365" selection-end="9365" vertical-scroll-proportion="0.0" vertical-offset="2755" max-vertical-offset="2869" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/postgresql-9.3-1101.jdbc41.jar!/org/postgresql/jdbc2/AbstractJdbc2Statement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="330" column="0" selection-start="17612" selection-end="17612" vertical-scroll-proportion="-4.68" vertical-offset="6134" max-vertical-offset="7239">
-          <folding />
-        </state>
+        <state line="330" column="0" selection-start="17612" selection-end="17612" vertical-scroll-proportion="0.0" vertical-offset="6270" max-vertical-offset="7258" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testTime.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="48" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="451" max-vertical-offset="1064">
-          <folding>
-            <marker date="1395238242932" expanded="true" signature="857:916" placeholder="insert into ..." />
-          </folding>
-        </state>
+        <state line="54" column="19" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="22287" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/Sample/SamplerRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="37" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="874">
-          <folding>
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/ResultSetMetaData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="11" selection-start="5066" selection-end="5066" vertical-scroll-proportion="0.331565" vertical-offset="2421" max-vertical-offset="4940">
+        <state line="52" column="8" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="4940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1142" column="35" selection-start="53525" selection-end="53529" vertical-scroll-proportion="0.0" vertical-offset="20965" max-vertical-offset="78261">
           <folding />
         </state>
       </provider>
@@ -1194,34 +1131,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1064">
+          <folding>
+            <marker date="1395753246761" expanded="true" signature="857:916" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="448" column="0" selection-start="15240" selection-end="15240" vertical-scroll-proportion="0.0" vertical-offset="7951" max-vertical-offset="8360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="39" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="773" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="525" column="11" selection-start="18110" selection-end="18110" vertical-scroll-proportion="0.17914438" vertical-offset="9205" max-vertical-offset="37886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/test_db.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="13" selection-start="2713" selection-end="2713" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="2413">
+        <state line="87" column="55" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.0" vertical-offset="1313" max-vertical-offset="2413">
           <folding>
             <marker date="1395161382733" expanded="true" signature="1413:1433" placeholder="select * fro..cities..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="413" column="5" selection-start="15057" selection-end="15057" vertical-scroll-proportion="0.0" vertical-offset="7324" max-vertical-offset="21185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/dbHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="30" selection-start="3576" selection-end="3576" vertical-scroll-proportion="-10.16" vertical-offset="2178" max-vertical-offset="2793">
+        <state line="180" column="5" selection-start="4979" selection-end="4979" vertical-scroll-proportion="0.0" vertical-offset="1966" max-vertical-offset="2489">
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1395486075388" expanded="true" signature="1626:1706" placeholder="create table..student..." />
-            <marker date="1395486075388" expanded="true" signature="2314:2343" placeholder="INSERT INTO ..." />
-            <marker date="1395486075388" expanded="true" signature="2314:2388" placeholder="INSERT INTO ..." />
-            <marker date="1395486075388" expanded="true" signature="3523:3542" placeholder="delete from ..." />
+            <element signature="method#inti#0;class#dbHandler#0" expanded="false" />
+            <element signature="e#4951#4952#0" expanded="true" />
+            <element signature="e#4978#4979#0" expanded="true" />
+            <marker date="1395933388063" expanded="true" signature="1837:1917" placeholder="create table..student..." />
+            <marker date="1395933388063" expanded="true" signature="2525:2554" placeholder="INSERT INTO ..." />
+            <marker date="1395933388063" expanded="true" signature="2525:2599" placeholder="INSERT INTO ..." />
+            <marker date="1395933388063" expanded="true" signature="4250:4269" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MessageBoardServer/testRunable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="628" selection-end="628" vertical-scroll-proportion="0.9179487" vertical-offset="41" max-vertical-offset="893">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="26" column="69" selection-start="670" selection-end="670" vertical-scroll-proportion="0.16919191" vertical-offset="427" max-vertical-offset="1045">
+          <folding />
         </state>
       </provider>
     </entry>

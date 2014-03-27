@@ -15,13 +15,26 @@ public class test {
         samplerRecord.setBirthDay(19900101);
         samplerRecord.setLocation("SiChuan");
 
-        dbHandler db=new dbHandler();
-        db.inti();
+        SamplerRecord li = new SamplerRecord();
+        li.setId(2);
+        li.setName("li");
+        li.setBirthDay(19900102);
+        li.setLocation("SiChuan");
+
+
+        dbHandler db=dbHandler.getInstance();
+
+//        dbHandler dbs=new dbHandler();
+
+        db.inti("jdbc:postgresql://127.0.0.1:5432/mydb", "DELL", "123123");
+
         db.writeRecord(samplerRecord);
-        System.out.println(db.read("select * from student").toString());
+        db.writeRecord(li);
+        db.read("select * from student");
+        db.clear();
         db.des();
-        System.out.println(db.read("select * from student").toString());
-        db.des();
+
+//        db.des();
 
     }
 
