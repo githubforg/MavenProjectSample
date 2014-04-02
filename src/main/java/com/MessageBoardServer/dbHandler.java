@@ -1,11 +1,11 @@
 package com.MessageBoardServer;
 import com.MessageBoardServer.Sample.SamplerRecord;
-import org.postgresql.*;
+import com.sun.swing.internal.plaf.synth.resources.synth_zh_CN;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.ExecutionException;
 
 /**
  * Created by DELL on 14-3-8.
@@ -169,20 +169,53 @@ public class dbHandler {
         }
     }
 
+
+    private Object obj=new Object();
+
     private ArrayList list=new ArrayList();
-    public ArrayList testAdd(String a){
-        System.out.println(Thread.currentThread().getName()+"1------->");
-        list.add(a);
-        System.out.println(Thread.currentThread().getName() + "2-------->");
-        return list;
+
+    public ArrayList testAdd(String  a){
+//        System.out.println(Thread.currentThread().getName()+"1------->");
+
+
+
+    try{
+            list.add(a);
+    }catch (Exception e){
+        System.out.println("An error in list.add");
+        System.out.println();
+        System.out.println();
     }
-    public ArrayList getList(){
+
+//        System.out.println(Thread.currentThread().getName() + "2-------->");
+
+        try{
         return list;
+        }catch (Exception e){
+            System.out.println("~~~~~~~~~~~~~");
+            System.out.println("An error in return");
+            return null;
+        }
+
+
+    }
+
+    public int count=0;
+
+
+    public int addInt(int a){
+        System.out.println(Thread.currentThread().getName() + "###-------->");
+
+        count+=a;
+        System.out.println(Thread.currentThread().getName() + "--------***>");
+
+        return count;
     }
 
     public static dbHandler getInstance(){
         return instance;
     }
+
 
 }
 
