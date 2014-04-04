@@ -10,9 +10,9 @@ import java.net.Socket;
  */
 public class TestServerMain {
     public static void main(String[] args) throws IOException {
-        ServerSocket socket=new ServerSocket(10000);
-        Socket s=socket.accept();
-        chatRoomServer server=new chatRoomServer();
+        ServerSocket socket = new ServerSocket(10000);
+        Socket s = socket.accept();
+        chatRoomServer server = new chatRoomServer();
         server.getSvOut(s).start();
         server.getSvReceive(s).start();
 
