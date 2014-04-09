@@ -107,4 +107,13 @@ public class chatRoomServer {
         }
     }
 
+/*
+将客户端信息广播
+获取所有客户端的IP
+然后广播
+ */
+    private void forward(Socket socket){
+
+    }
+
 }

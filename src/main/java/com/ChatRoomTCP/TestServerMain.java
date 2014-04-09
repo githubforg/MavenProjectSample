@@ -16,5 +16,10 @@ public class TestServerMain {
         server.getSvOut(s).start();
         server.getSvReceive(s).start();
 
+        ServerSocket socket2 = new ServerSocket(10001);
+        Socket s2 = socket2.accept();
+        server.getSvOut(s2).start();
+        server.getSvReceive(s2).start();
+
     }
 }
