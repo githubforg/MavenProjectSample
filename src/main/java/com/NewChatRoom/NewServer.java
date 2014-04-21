@@ -55,11 +55,13 @@ class Receive implements Runnable{
     ArrayList<Socket> list = null;
     Socket socket=null;
     InetAddress IP=null;
+    int count=-1;
 
-    public Receive (ArrayList list,Socket socket){
+    public Receive (ArrayList list,Socket socket,int count){
         this.list=list;
         this.socket=socket;
         this.IP=socket.getInetAddress();//
+        this.count=count;
         socket.getLocalSocketAddress();
 
     }
@@ -73,14 +75,14 @@ class Receive implements Runnable{
                 InputStream in=socket.getInputStream();
                 int len=in.read(buf);
                 String line= new String(buf, 0, len);
-                String content=IP+"Say: "+line;
-//                System.out.println(content);
+                String content="Client "+count+": "+line;
+                System.out.println(content);
 
 
                 for(int i=0;i<list.size();i++){
                     //群发
                     OutputStream out=list.get(i).getOutputStream();
-                    System.out.println(content);
+//                    System.out.println(content);
                     out.write(content.getBytes());
                     System.out.println("已发送");
                 }
@@ -118,7 +120,7 @@ class StartServer{
             count++;
             System.out.println(count+" Client added");
 //            线程群发客户端信息
-            new Thread(new Receive(list,socket)).start();
+            new Thread(new Receive(list,socket,count)).start();
 //            服务器发送信息给客户端
 
             Send sToAll=new Send(list);
