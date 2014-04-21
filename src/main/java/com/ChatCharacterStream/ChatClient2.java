@@ -29,7 +29,7 @@ class ReadMes extends Thread {
             while (true) {
                 message = reader.readLine();
                 // 当读服务器信息线程接收到bye，该线程退出
-                if (message.equals("886")) {
+                if (message.equals("bye")) {
                     break;
                 }
                 System.out.println(message);
